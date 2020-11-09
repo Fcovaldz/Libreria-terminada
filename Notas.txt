@@ -1,0 +1,15 @@
+Local Storage
+-Permite almacenar datos que persisten sin importar que el navegador se cierre o que el equipo se apague.
+-Los datos almacenados se identifican por medio de un Key(clave) y un valor
+-Tiene un rango de almacenamiento de hasta 5MB
+-La información se almacena directamente en el navegador
+-A diferencia de las cookies no se envía como petición HTTP
+
+Session Storage
+-Se elimina la información en automático cuando se cierra el navegador o el equipo se apaga
+
+    Object Persona
+Encuestados[{nombre=:'', apellido:''}, {nombre:'', apellido:''}]
+-Array de objetos llamado JSON
+
+submit por defecto recarga la pagina a el navegadorpara evitar esta accion por defecto utilizamos el metodo .prevent[Default]
